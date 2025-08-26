@@ -1,0 +1,118 @@
+.parent {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../assets/images/background.png") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 7, 16, 0.8);
+  z-index: 1;
+}
+
+.myheadingsparent {
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  z-index: 2;
+}
+
+.one {
+  font-size: clamp(35px, 6vw, 50px);
+  font-weight: 900;
+  margin-top: 120px;
+  color: rgb(212, 199, 224);
+}
+
+.two {
+  font-size: clamp(30px, 5vw, 45px);
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.three {
+  font-size: clamp(14px, 4.5vw, 40px);
+  font-weight: 800;
+  margin-top: 20px;
+}
+
+.highlight {
+  color: #cd5ff8;
+}
+
+.parenticons {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font-size: 35px;
+  margin-top: 30px;
+  z-index: 2;
+}
+
+.parenticons a {
+  color: #fff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.parenticons a:hover {
+  transform: scale(1.2);
+  color: #cd5ff8;
+}
+
+/* Buttons */
+.buttonscoloumn {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  z-index: 2;
+  flex-wrap: wrap;
+}
+
+.resumebut,
+.contactbut {
+  height: 50px;
+  width: 180px;
+  border: 2px solid #cd5ff8;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resumebut:hover,
+.contactbut:hover {
+  background-color: #cd5ff8;
+  color: #080710;
+  transform: translateY(-3px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .one {
+    margin-top: 80px;
+  }
+
+  .buttonscoloumn {
+    flex-direction: column;
+  }
+
+  .resumebut,
+  .contactbut {
+    /* width: 100%; */
+    max-width: 250px;
+  }
+}

@@ -1,0 +1,170 @@
+.projectparent {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 120px;
+  gap: 20px;
+}
+
+.projecthead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: clamp(30px, 5vh, 50px);
+  font-weight: 700;
+}
+
+.projectsidehead {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.projectsholder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  gap: 50px;
+}
+
+.project {
+  width: 400px;
+  border: 2px solid #CD5FF8;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 5px #CD5FF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.3s ease;
+}
+
+.projectimage {
+  width: 100%;
+  display: flex;               /* flexbox to center */
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.projectimage img {
+  width: 90%;                  /* responsive width */
+  max-width: 350px;            /* never go beyond card size */
+  height: 230px;               /* fixed height */
+  object-fit: cover;           /* crop without distortion */
+  border-radius: 6px;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.projectimage img:hover {
+  transform: scale(1.05);
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 15px #C770F0;
+}
+
+.projecttitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.projectmatter {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Projectbuttons {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gitbut {
+  width: 100px;
+  height: 30px;
+  background-color: #5A327B;
+  color: white;
+  border: 2px solid #5A327B;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.demobut {
+  width: 100px;
+  height: 30px;
+  background-color: #5A327B;
+  color: white;
+  border: 2px solid #5A327B;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* 📱 Mobile screens */
+@media (max-width: 500px) {
+  .project {
+    width: 90%;
+  }
+
+  .projectimage img {
+    width: 90%;
+    height: 200px;
+  }
+
+  .projectmatter {
+    font-size: 14px;
+  }
+}
+
+/* 📱 Tablets */
+@media (max-width: 768px) {
+  .project {
+    width: 80%;
+  }
+
+  .projectimage img {
+    width: 90%;
+    height: 220px;
+  }
+}
+
+/* 💻 Small Desktops */
+@media (max-width: 1024px) {
+  .project {
+    width: 350px;
+  }
+
+  .projectimage img {
+    width: 90%;
+    height: 230px;
+  }
+}
+

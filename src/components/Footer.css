@@ -1,0 +1,57 @@
+.footer {
+  background-color: #0b0514; /* dark background */
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 50px;
+  font-size: 16px; 
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Left part (text) */
+.footer-left {
+  min-width: 220px;   /* gives enough space */
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Center part (copyright) */
+.footer-center {
+    /* stays centered */
+    min-width: 100px;
+  text-align: center;
+}
+
+/* Right part (icons) */
+.footer-right {
+  min-width: 200px;
+  text-align: right;
+}
+
+/* Highlighted text */
+.footer .highlight {
+  color: #ff80ff;
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* Social icons */
+.footer a {
+  margin-left: 16px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer a:hover {
+  color: #ff80ff;
+  transform: scale(1.2); /* slight zoom on hover */
+}

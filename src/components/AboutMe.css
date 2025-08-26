@@ -1,0 +1,110 @@
+/* Heading */
+.aboutmehead {
+  width: 90%;
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  padding: 30px 15px;
+}
+
+.aboutmehead .highlight {
+  color: #cd5ff8;
+}
+
+/* Parent Layout */
+.aboutparent {
+  width: 9  0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  gap: 40px;
+  padding: 20px 40px;
+}
+
+/* Text Section */
+.myabout {
+  flex: 1;
+  min-width: 300px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #e2e8f0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 20px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.myabout .highlight {
+  color: #cd5ff8;
+  font-weight: 600;
+}
+
+/* Picture Section */
+.mypictureparent {
+  flex: 1;
+  min-width: 250px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mypic img {
+  width: 300px;
+  height: 350px;
+  object-fit: cover;
+  border: 5px solid #cd5ff8;
+  border-radius: 50%;
+  background-color: #f9fafb;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.mypic img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 40px rgba(205, 95, 248, 0.6);
+}
+
+/* RESPONSIVENESS */
+
+/* Tablets */
+@media (max-width: 1024px) {
+  .aboutmehead {
+    font-size: 2.2rem;
+  }
+  .myabout {
+    font-size: 1rem;
+    padding: 15px;
+  }
+  .mypic img {
+    width: 260px;
+    height: 300px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .aboutparent {
+    flex-direction: column-reverse;
+    padding: 10px 20px;
+  }
+  .aboutmehead {
+    font-size: 1.8rem;
+    padding: 20px 10px;
+  }
+  .myabout {
+    width: 100%;
+    font-size: 0.95rem;
+  }
+  .mypic img {
+    width: 220px;
+    height: 250px;
+  }
+}
