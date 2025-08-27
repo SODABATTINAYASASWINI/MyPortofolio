@@ -20,6 +20,16 @@ const skills = [
     level: "Intermediate"
   },
   {
+    name: "MongoDB",
+    icon: "⚛️",
+    level: "Intermediate"
+  },
+  {
+    name: "SQL",
+    icon: "⚛️",
+    level: "Intermediate"
+  },
+  {
     name: "C++",
     icon: "💻",
     level: "Intermediate"
