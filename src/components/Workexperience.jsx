@@ -4,31 +4,32 @@ import "./WorkExperience.css"; // ✅ Import the CSS file
 const experiences = [
   {
     id: 1,
-    role: "Full Stack Developer",
+    role: "Female Techie (Frontend & Event Support)",
     company: "Google Developer Groups",
     duration: "Sep 2024 - May 2025",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers."
+      "Contributed to community projects by building and improving web applications using React.js, HTML, CSS, and JavaScript.",
+      "Assisted in organizing technical events with 100+ attendees, helping peers learn frontend and full-stack concepts.",
+      "Collaborated with developers and designers to deliver responsive, user-friendly UIs.",
+      "Guided juniors in understanding React basics and project structuring."
     ],
     logo: "🟢"
   },
   {
     id: 2,
-    role: "Web Developer",
+    role: "Frontend Developer Intern",
     company: "TechnicalHub",
-    duration: "June 10 - July 25",
+    duration: "June 2024 - July 2024",
     points: [
-      "Developing and maintaining mobile applications using React Native.",
-      "Building reusable components for faster development.",
-      "Integrating APIs and managing app state efficiently.",
-      "Working closely with designers to ensure pixel-perfect UI."
+      "Built reusable and responsive React components for real-time applications.",
+      "Worked on API integration to fetch and manage data efficiently.",
+      "Implemented modern UI/UX designs ensuring pixel-perfect alignment.",
+      "Gained hands-on experience in version control (Git/GitHub) and collaborative coding."
     ],
     logo: "🟢"
   }
 ];
+
 
 const WorkExperience = () => {
   return (

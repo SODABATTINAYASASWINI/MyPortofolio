@@ -1,7 +1,7 @@
 .parent {
   width: 100%;
   min-height: 100vh;
-  background: url("../assets/images/background.png") center/cover no-repeat;
+  /* background: url("../assets/images/background.png") center/cover no-repeat; */
   position: relative;
   display: flex;
   flex-direction: column;
@@ -98,6 +98,10 @@
   background-color: #cd5ff8;
   color: #080710;
   transform: translateY(-3px);
+}
+
+.aherf{
+  text-decoration: none;
 }
 
 /* Responsive adjustments */

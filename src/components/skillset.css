@@ -1,10 +1,14 @@
 .skillsrababu{
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 80px;
+    /* background-image: url("../src/assets/images/stars.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; */
 }
 .skillhead{
     font-size: clamp(30px, 5vh, 50px);

@@ -14,13 +14,18 @@
 
 /* Parent Layout */
 .aboutparent {
-  width: 9  0%;
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap-reverse;
   gap: 40px;
   padding: 20px 40px;
+  /* background-image: url("../assets/images/stars.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center; */
+  /* background-color: #cd5ff8; */
 }
 
 /* Text Section */
@@ -35,9 +40,9 @@
   font-size: 1.1rem;
   line-height: 1.8;
   padding: 20px;
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  /* border-radius: 15px; */
+  /* background: rgba(255, 255, 255, 0.05); */
+  /* border: 1px solid rgba(255, 255, 255, 0.15); */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 

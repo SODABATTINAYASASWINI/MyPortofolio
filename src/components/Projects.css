@@ -7,6 +7,10 @@
   flex-direction: column;
   margin-top: 120px;
   gap: 20px;
+  /* background-image: url("../src/assets/images/stars.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%; */
 }
 
 .projecthead {

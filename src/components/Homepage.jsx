@@ -40,8 +40,10 @@ const HomePage = () => {
       </div>
 
       <div className="buttonscoloumn">
-        <button className="resumebut">Resume</button>
-        <button className="contactbut"><a href="#contact">Contact</a></button>
+        <button className="resumebut">
+          <a href="/Yasaswini_Resume.pdf" target="_blank" rel="noreferrer" className="aherf">Resume</a>
+          </button>
+        <button className="contactbut"><a href="#contact"  className="aherf">Contact</a></button>
       </div>
     </div>
   );

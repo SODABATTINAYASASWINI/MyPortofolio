@@ -21,7 +21,7 @@ em {
 }
 
 .themainparent{
-    background-image: url("../src/assets/images/background.png");
+    /* background-image: url("../src/assets/images/stars.png"); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
